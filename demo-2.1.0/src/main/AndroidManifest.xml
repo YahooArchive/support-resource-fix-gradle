@@ -1,0 +1,20 @@
+<!--
+  ~ Copyright 2016, Yahoo Inc.
+  ~ Copyrights licensed under the MIT License.
+  ~ See the accompanying LICENSE file for terms.
+  -->
+
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yahoo.build.gradle.android.test.resfix.demo">
+
+    <application android:theme="@style/Theme.AppCompat">
+        <activity android:name="com.yahoo.build.gradle.android.test.resfix.demo.DemoActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

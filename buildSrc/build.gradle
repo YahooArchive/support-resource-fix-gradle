@@ -1,0 +1,19 @@
+/*
+ * Copyright 2016, Yahoo Inc.
+ * Copyrights licensed under the MIT License.
+ * See the accompanying LICENSE file for terms.
+ */
+
+version '1.0.0'
+group 'com.yahoo.build.gradle.android.test'
+project.ext.artifactId = 'resfix'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile gradleApi()
+    compile localGroovy()
+    compile 'com.android.tools.build:gradle:2.1.0'
+}
