@@ -2,10 +2,10 @@ support-resource-fix-gradle
 =============
 
 ## Issue
-Android Support Library R.class does not get included in the proper build folder when running unit tests on a library module. If your using Robolectric for unit testing, these resources are not available when robolectric is trying to resolve those values and will instantly fail your test (Ex. Inflating a stock CardView). This plugin will copy the resource files into the correct build path for Robolectric to properly resolve the values and clean up after unit tests have run.
+Android Support Library R.class does not get included in the proper build folder when running unit tests on a library module. If you are using Robolectric for unit testing, these resources are not available when Robolectric is trying to resolve those values and will instantly fail your test (Ex. Inflating a stock CardView). This plugin will copy the resource files into the correct build path for Robolectric to properly resolve the values and clean up after unit tests have run.
 
 
-## Useage //Unimplemented
+## Usage //Unimplemented
 build.gradle
 ```groovy
 buildscript {
