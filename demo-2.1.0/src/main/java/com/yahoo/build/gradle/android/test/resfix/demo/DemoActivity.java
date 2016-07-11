@@ -8,13 +8,12 @@ package com.yahoo.build.gradle.android.test.resfix.demo;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.CardView;
 
 public class DemoActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(new CardView(this));
+        setContentView(R.layout.activity_demo);
     }
 }

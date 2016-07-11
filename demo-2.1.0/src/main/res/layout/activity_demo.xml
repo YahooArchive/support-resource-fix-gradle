@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2016, Yahoo Inc.
+  ~ Copyrights licensed under the MIT License.
+  ~ See the accompanying LICENSE file for terms.
+  -->
+
+<android.support.v7.widget.RecyclerView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+</android.support.v7.widget.RecyclerView>

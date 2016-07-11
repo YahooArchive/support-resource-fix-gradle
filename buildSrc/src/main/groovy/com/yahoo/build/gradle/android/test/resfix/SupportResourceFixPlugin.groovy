@@ -141,6 +141,7 @@ class SupportResourceFixPlugin implements Plugin<Project> {
         String dependencyName = CaseFormat.LOWER_HYPHEN.to(CaseFormat.UPPER_CAMEL, dependency.name)
         String name = "delete${variant.name.capitalize()}${dependencyName}Resources"
         return project.tasks.create(name: name, type: Delete) {
+            dependsOn "test${variant.name.capitalize()}UnitTest"
             delete "${getGeneratedResPath()}/${variant.name}/${dependencyPackagePath}"
             outputs.upToDateWhen { false }
         }
